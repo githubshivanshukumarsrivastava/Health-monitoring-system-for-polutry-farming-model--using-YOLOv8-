@@ -1,0 +1,4 @@
+Total annotations: 2
+Unique images: 2
+Classes: death_chicken, healthy_chicken
+Annotations per class: {'death_chicken': 2}
