@@ -1,24 +1,4 @@
-
- 
-Abstarct 
 This report is a record of the Exploratory Data Analysis (EDA), data prepares, clustering, and preliminary work with the aim of the model-based detection that was conducted concerning mortality monitoring in layer-house and open-cage poultry settings to authenticate the realization of analysis results and provide actionable visual details (Objective 1). The project parameters of Roboflow were used to obtain and optimize annotation, calculate dataset health metrics, create a variety of data visualizations (class balance, bounding-box statistics, sample annotation overlays), apply density and DBSCAN clustering to identify mortality hotspots and run a first-pass object-detection inference run with YOLOv8 (ultralytics) to simulate the automated detection of dead-birds using this interpretation. Main conclusions: the dataset consists of slightly more than 698 images (Roboflow export) of which local parsing identified 696 labelled images (1 unlabelled), and 1,139 bounding-box annotations categorized as either healthy chicken (791) or death chicken (348) - it is evident that there is no class balance. There are no really small bounding boxes found. Dead birds demonstrate spatial clusters and heatmaps in a number of images. Initial inference based on a lightweight YOLOv8 model was also made and the results are tentative and suggest that some images are being under-detected (more training or augmentation may be required). The report also ends with a recommendation of workable solutions of how to improve model performance, develop a real-time prototype, and convert insights into farm operations..
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
 
 
 Introduction 
