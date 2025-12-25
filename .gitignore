@@ -1,0 +1,32 @@
+# Datasets
+new_chichken_dataset-1/
+dataset/
+data/
+images/
+labels/
+
+# YOLO outputs
+runs/
+detect/
+saved_frames/
+output.avi
+*.png
+*.jpg
+*.avi
+
+# Model weights
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build folders
+build/
+dist/
+
+# Zip files
+*.zip
